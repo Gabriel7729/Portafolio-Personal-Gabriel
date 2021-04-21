@@ -626,7 +626,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+
+/*Angular Icon-Box*/
+.services .icon-box-Angular {
   padding: 20px 15px;
   position: relative;
   overflow: hidden;
@@ -638,7 +640,34 @@ section {
   z-index: 1;
 }
 
-.services .icon-box::before {
+/*Blazor Icon-Box*/
+.services .icon-box-Blazor {
+  padding: 20px 15px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+}
+
+/*MVC Icon-Box*/
+.services .icon-box-MVC {
+  padding: 20px 15px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+}
+
+/*Angular Icon-Box*/
+.services .icon-box-Angular::before {
   content: '';
   position: absolute;
   top: 0;
@@ -649,8 +678,47 @@ section {
   z-index: -1;
 }
 
-.services .icon-box:hover::before {
-  background: #d43076;
+/*Blazor Icon-Box*/
+.services .icon-box-Blazor::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  transition: ease-in-out 0.3s;
+  z-index: -1;
+}
+
+/*MVC Icon-Box*/
+.services .icon-box-MVC::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  transition: ease-in-out 0.3s;
+  z-index: -1;
+}
+
+/*Angular Icon-Box*/
+.services .icon-box-Angular:hover::before {
+  background: #eb0a0a;
+  height: 100%;
+  border-radius: 0px;
+}
+
+/*Blazor Icon-Box*/
+.services .icon-box-Blazor:hover::before {
+  background: #d501ff;
+  height: 100%;
+  border-radius: 0px;
+}
+
+/*MVC Icon-Box*/
+.services .icon-box-MVC:hover::before {
+  background: #006ed4;
   height: 100%;
   border-radius: 0px;
 }
@@ -661,16 +729,9 @@ section {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background: #d43076;
+  width: 80px;
+  height: 80px;
   transition: all 0.3s ease-in-out;
-}
-
-.services .icon i {
-  font-size: 36px;
-  line-height: 1;
-  color: #fff;
 }
 
 .services .title {
@@ -687,6 +748,7 @@ section {
   font-size: 15px;
   line-height: 24px;
   margin-bottom: 0;
+  color: #111;
 }
 
 .services .icon-box:hover .title a, .services .icon-box:hover .description {

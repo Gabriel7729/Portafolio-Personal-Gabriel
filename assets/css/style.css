@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #d43076;
+  color: #0749ff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #dd5a92;
+  color: #00aeff;
   text-decoration: none;
 }
 
@@ -403,7 +403,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #fcf2f7;
+  background-color: #00a2ff;
   min-height: 40px;
 }
 
@@ -801,7 +801,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #d43076;
+  color: #00aeff;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -913,11 +913,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #d43076;
+  border: 1px solid #0051ff;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #d43076;
+  background-color: #00c3ff;
 }
 
 .portfolio-details .portfolio-info {
@@ -1044,6 +1044,25 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact .contact-about{
+  background-color: rgb(223, 231, 231);
+  border-radius: 15px;
+  justify-content: center;
+  position: relative;
+  display: block;
+  margin: 20px;
+  padding: 20px;
+}
+
+.contact .contact-about img{
+  border-radius: 10px;
+  justify-content: center;
+  position: relative;
+  display: block;
+  width: 250px;
+  height: 300px;
+}
+
 .contact .contact-about h3 {
   font-size: 36px;
   margin: 0 0 10px 0;
@@ -1052,14 +1071,14 @@ section {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #d43076;
+  color: #00aeff;
 }
 
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Playfair Display", serif;
-  color: #3c6387;
+  color: #000000;
 }
 
 .contact .social-links {
@@ -1070,7 +1089,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #d43076;
+  color: #00d9ff;
   line-height: 0;
   padding: 8px 0;
   margin-right: 4px;
@@ -1079,27 +1098,28 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #d43076;
+  border: 1px solid #00d9ff;
 }
 
 .contact .social-links a:hover {
-  background: #d43076;
+  background: #00d9ff;
   color: #fff;
 }
 
 .contact .info {
   color: #5a656e;
+  padding: 100px
 }
 
 .contact .info i {
-  font-size: 32px;
-  color: #d43076;
+  font-size: 60px;
+  color: #00d9ff;
   line-height: 0;
   margin-right: 15px;
 }
 
 .contact .info p {
-  font-size: 14px;
+  font-size: 25px;
   margin: 0;
 }
 

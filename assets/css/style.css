@@ -1054,6 +1054,26 @@ section {
   padding: 20px;
 }
 
+.contact .aptitude-about{
+  background-color: rgb(223, 231, 231);
+  border-radius: 15px;
+  justify-content: center;
+  position: relative;
+  display: block;
+  margin: 20px;
+  padding: 20px;
+}
+
+.contact .img-thumbnail {
+  display:inline-block;
+  text-align: center;
+  background: rgb(8, 177, 255);
+  border: 1px solid rgb(8, 177, 255);
+  margin-bottom: 5px;
+  width: 250px;
+  height:135px;
+}
+
 .contact .contact-about img{
   border-radius: 10px;
   justify-content: center;
@@ -1121,71 +1141,6 @@ section {
 .contact .info p {
   font-size: 25px;
   margin: 0;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #d43076;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #d43076;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #dd5a92;
 }
 
 @-webkit-keyframes animate-loading {
